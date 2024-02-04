@@ -1,0 +1,40 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    margin: 0 auto;  
+}
+
+.logo-img {
+    width: 200px;
+    margin-left: 80%;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.nav-menu li {
+    font-size: larger;
+    padding: 0 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style-type: none;
+}
+
+.nav-menu li a {
+    color: #495e57;
+    text-decoration: none;
+}
+
+.nav-menu li a:hover {
+    color: #495e57;
+}
+
+.hamburger, .close-hamburger {
+    display: none;
+}
+
+
